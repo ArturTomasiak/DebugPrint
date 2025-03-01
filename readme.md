@@ -27,7 +27,7 @@ A lightweight, cross-platform C library for printing various data types and modi
   this excludes long double, void* and arrays
 
 - **`change_print_color(Color color)`**  
-  Changes the text color of the standard output stream. Can be called via `change_color(color)` macro. It accepts the following arguments:
+  Changes the text color of the standard output stream. Can be called via `print_color(color)` macro. It accepts the following arguments:
   - `RED`
   - `GREEN`
   - `BLUE`
